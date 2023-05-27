@@ -1,6 +1,7 @@
 body{
     background: rgb(34,193,195);
     background: linear-gradient(52deg, rgba(34,193,195,1) 0%, rgba(45,189,253,1) 100%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container{
@@ -21,7 +22,7 @@ body{
 
 .c1{
     grid-area: cabecera;
-    background-color: #f02dfd;
+    background: radial-gradient(circle, rgba(111,172,245,1) 74%, rgba(240,98,160,1) 100%);
 }
 
 .c2{
@@ -31,7 +32,7 @@ body{
 
 .c3{
     grid-area: contenido;
-    background-color: #43fd2d;
+    background: linear-gradient(0deg, rgba(255,165,8,1) 4%, rgba(255,252,0,0.7091211484593838) 50%, rgba(255,165,8,1) 84%);
 }
 
 .c4{
@@ -43,3 +44,22 @@ body{
     grid-area: footer;
     background-color: #fd722d;
 }
+
+.ul-grupos{
+    list-style: none;
+    text-align: center;
+}
+
+.h4-grupos{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.check-grupo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: -25px;
+    left: 200px;
+  }
