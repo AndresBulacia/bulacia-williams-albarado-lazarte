@@ -7,7 +7,8 @@
 
 
 body{
-    background: #537188;
+    background-color: #537188 !important;
+    padding: 5px;
 }
 
 .container{
@@ -71,3 +72,10 @@ box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
     top: -25px;
     left: 200px;
   }
+
+
+.card{
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
+}
