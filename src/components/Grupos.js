@@ -7,7 +7,7 @@ const Grupos = () => {
       alumnos: [
         { id: 1 , nombre: 'Bentancur'},
         { id: 2 , nombre: 'Spector'},
-        {id:  3, nombre: 'Lazarte'},
+        { id:  3, nombre: 'Lazarte'},
         { id: 4, nombre: 'Laura' },
         { id: 5, nombre: 'Rey' },
         { id: 6, nombre: 'Portillo' },
