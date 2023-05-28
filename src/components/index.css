@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap');
 
-
+/*GLOBALES*/
 *{
     font-family: 'Signika', sans-serif;
 }
@@ -11,6 +11,8 @@ body{
     padding: 5px;
 }
 
+
+/*GRID LAYOUT*/
 .container{
     display: grid;
     grid-template-areas: "cabecera cabecera"
@@ -55,6 +57,8 @@ box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
     background-color: #fd722d;
 }
 
+/*BARRA LATERAL*/
+
 .ul-grupos{
     list-style: none;
     text-align: center;
@@ -79,3 +83,74 @@ box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 5px -6px rgba(0,0,0,0.75);
 }
+
+
+/*FOOTER*/
+.footer {
+    background-color: #e47003;
+    padding: 20px;
+    text-align: center;
+   padding-top: 6rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 1.5rem;
+  }
+  
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-section {
+    flex: 1 0 33%;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-links li {
+    margin: 0 5px;
+  }
+  
+  .social-links li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .social-links li a:hover {
+    color: #007bff;
+  }
+
+  .c6{
+    grid-area: footer;
+    margin: 2px;
+  }
