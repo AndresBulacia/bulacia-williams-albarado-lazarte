@@ -5,7 +5,8 @@ import {FaInstagramSquare} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer pt-3">
+      <div><h1>UTN-FRT</h1></div>
       <div className="footer-container">
         <div className="footer-section">
           <h3>Contacto</h3>

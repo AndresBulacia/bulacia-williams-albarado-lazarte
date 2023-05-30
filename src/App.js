@@ -4,7 +4,7 @@ import React from "react";
 import Card from "./components/Card";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
-import Piedepagina from "./components/Piedepagina";
+// import Piedepagina from "./components/Piedepagina";
 
 
 function App() {
@@ -17,7 +17,6 @@ function App() {
         <div className="item c3"><p><Grupos/></p></div>
         <div className="item c4"><Card/></div>
         <div className="item c5"><Footer/></div>
-        <div className="item c6"><Piedepagina/></div>
       </div>
     </div>
   );
